@@ -1,0 +1,8 @@
+Após instalar o VSCODE e o Python, Instale a extensão Python da Microsoft dentro do VSCODE
+
+Comando para criar o ambiente virtual venv
+> python -m venv venv
+
+Comando para ativar o ambiente virtual venv
+> .\venv\Scripts\activate
+
