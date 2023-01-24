@@ -1,0 +1,7 @@
+print(123456)
+print(189.932)
+print(type(123456))
+print(type(189.932))
+print(type("Gabriel"))
+print(type(True))
+print(type(False))
