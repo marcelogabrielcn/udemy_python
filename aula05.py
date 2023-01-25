@@ -1,0 +1,8 @@
+print(182)
+print(float(1821))
+print(str(182))
+print(str(182) + 'B')
+print(type(182))
+print(type(float(1821)))
+print(type(str(182)))
+print(type(str(182) + 'B'))
