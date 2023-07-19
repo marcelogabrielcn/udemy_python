@@ -22,4 +22,3 @@ novos_produtos = [
 
 print_iter(produtos)
 print_iter(novos_produtos)
-
