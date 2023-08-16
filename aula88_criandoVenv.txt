@@ -1,0 +1,8 @@
+Ver aula 182 do curso de Python da Udemy
+Para criar um ambiente virtual usamos o comando no PowerShell:
+
+python --version
+python -m venv venv
+
+
+Para ativar entre no diretório do ambiente virtual depois dentro de scripts e execute o activate.

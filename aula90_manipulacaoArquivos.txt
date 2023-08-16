@@ -1,0 +1,20 @@
+Em python, podemos criar arquivos através do código.
+
+arquivo = 'aulaxx.txt' > Desta forma, irá criar um arquivo de texto
+Ele salva esse arquivo no mesmo diretorio que está o código python, 
+Mas caso queira salvar em outro diretorio, basta passar o caminho completo
+
+caminho_arquivo = 'C:\\Users\\Gabriel\\Documents\\udemy_python2023\\aulaxx.txt\\'
+
+arquivo = open(caminho_arquivo, 'w')
+    coisas para fazer no arquivo...
+arquivo.close()
+
+Existem os modos de arquivos, r - read, w - write, x - criar (estudaremos mais a frente)
+Sempre que abrir um arquivo, é importante fecha-lo para evitar problemas
+
+Para isso, o python facilita o manejo desses arquivos, portanto podemos usar:
+
+with open(caminho_arquivo, 'w') as arquivo:
+    print('Hello world')
+    print('O arquivo será fechado')

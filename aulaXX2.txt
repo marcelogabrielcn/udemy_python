@@ -1,0 +1,6 @@
+Minha primeira linha escrita.
+Minha segunda linha, lembrando da quebra de linha na anterior.
+Minha terceira linha escrita
+Linha 4
+Linha 5
+Linha X, Atenção com a pontuação

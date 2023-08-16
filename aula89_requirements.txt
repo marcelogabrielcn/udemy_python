@@ -1,0 +1,12 @@
+Sobre a pasta venv, as vezes podemos instalar tanta coisa que acaba ficando pesada, e para carregar o projeto, acaba sendo complicado de transpor essa pasta
+Para isso, existe o requirements.txt que nada mais é que uma listagem de tudo que tem instalado no seu venv.
+
+$ pip freeze > requirements.txt
+
+Desta forma, gera um arquivo txt com o nome de tudo que havia instalado.
+
+Para iniciar novamente, em uma outra máquina por exemplo, pode-se baixar esse arquivo requirements e instalar novamente os componentes.
+
+$ pip install -r .\requirements.txt
+
+Desta forma irá instalar novamente tudo que havia no ambiente em que foi gerado esse arquivo
