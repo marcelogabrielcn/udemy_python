@@ -1,0 +1,7 @@
+Uma classe, é um molde para criar novos objetos
+
+Por convenção, utiliza-se PascalCase para nomes das classes: CriarBaseDeDados
+
+Dados dentro de uma classe são chamados de atributos
+Funções dentro da classe, são chamados de métodos 
+
