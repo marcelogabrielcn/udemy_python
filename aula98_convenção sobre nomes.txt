@@ -1,0 +1,7 @@
+PascalCase - Usado em nomes de classes (MinhaClasse, ProgramaLegalEmPython)
+
+
+camelCase - Esse tipo de nomenclatura não é usado em Python
+
+
+snake_case - Usado para qualquer coisa, como funções, variaveis, etc, exceto nome de Classes
