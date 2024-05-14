@@ -20,6 +20,9 @@ class Produto:
     def __init__(self, nome, preco):
         self.nome = nome
         self.preco = preco
+    
+    def __del__(self):
+        print("Apagando...", self.nome)
 
 
 carrinho1 = Carrinho()
