@@ -22,3 +22,4 @@ pessoa001.falar_o_que_sou()
 aluno001 = Aluno('Gabriel', 'Ferreira', 25)
 aluno001.falar_nome_classe()
 aluno001.falar_o_que_sou()
+
