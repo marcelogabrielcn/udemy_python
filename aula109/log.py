@@ -25,3 +25,4 @@ class LogPrintMixin(Log):
 if __name__ == '__main__':
     l = LogPrintMixin()
     l.log_error('Mensagem qualquer')
+
