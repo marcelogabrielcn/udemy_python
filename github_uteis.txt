@@ -1,0 +1,21 @@
+1. Instalar o Git:
+Verifique a instalação: git --version
+Instale a partir do site oficial do Git se necessário.
+
+2. Clonar o Repositório:
+git clone https://github.com/usuario/repositorio.git
+
+3. Navegar até o Diretório do Repositório:
+cd repositorio
+
+4. Trabalhar no Repositório: Faça alterações, adicione novos arquivos, etc.
+
+5. Fazer Commit das Alterações:
+git add .
+git commit -m "Mensagem de commit"
+
+6. Enviar as Alterações para o GitHub:
+git push origin main
+
+7. Manter o Repositório Atualizado:
+git pull origin main (baixar ultima versão de tudo)
