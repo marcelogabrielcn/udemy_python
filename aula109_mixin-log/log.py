@@ -39,4 +39,3 @@ if __name__ == '__main__':
     l2 = LogFileMixin()
     l2.log_error('teste mixin')
     l2.log_success('uhuul')
-
