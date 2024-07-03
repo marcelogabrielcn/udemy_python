@@ -1,10 +1,10 @@
-from log import LogFileMixin, LogPrintMixin
+from eletronico import Smarthphone
 
+iphone_13 = Smarthphone('iPhone 13')
+iphone_15 = Smarthphone('iPhone 15 Pro Max')
 
-l = LogPrintMixin()
-l.log_error('Mensagem qualquer')
-l.log_success('Eba, deu certo')
+iphone_13.ligar()
+iphone_13.desligar()
+iphone_15.ligar()
 
-l2 = LogFileMixin()
-l2.log_error('Adicionando linhas com log')
-l2.log_success('adicionando linhas, success')
+iphone_13.log_success()
