@@ -17,3 +17,5 @@ print()
 print(repr(p2))
 print(f'{p2!s}')
 print(f'{p1!r}')
+
+# O repr retorna para outros devs como a classe trata os objetos
