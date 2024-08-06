@@ -5,8 +5,8 @@ class Ponto:
 
     def __repr__(self):
         class_name1 = self.__class__.__name__
-        class_name2 = type(self).__name__
-        return f'{class_name1, class_name2}(x={self.x}, y={self.y})' 
+        class_name2 = type(self).__name__  # Mesma coisa da class_name1
+        return f'{class_name2}(x={self.x}, y={self.y})' 
 
 
 p1 = Ponto(1, 2)
