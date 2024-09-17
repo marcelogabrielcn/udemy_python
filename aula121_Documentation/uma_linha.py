@@ -11,4 +11,11 @@ print('Oii')
 var_qualquer = 'nada'
 
 def func_qualquer():
+    """
+    Aqui dentro da função, eu posso ter uma documentação também
+    """
     ...
+
+
+def soma(x: int | float, y: int | float) -> int | float:
+    return x + y
