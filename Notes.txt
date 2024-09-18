@@ -5,4 +5,3 @@ Comando para criar o ambiente virtual venv
 
 Comando para ativar o ambiente virtual venv
 > .\venv\Scripts\activate
-
