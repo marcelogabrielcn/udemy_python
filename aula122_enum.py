@@ -19,8 +19,6 @@ def mover(direcao):
     print(f'Movendo peão para {direcao}')
 
 
-
-
 #mover('cima')
 #mover('baixo')
 #mover('esquerda')

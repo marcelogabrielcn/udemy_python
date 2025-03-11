@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.startupEditor": "none",
     "explorer.compactFolders": false,
     "code-runner.runInTerminal": true,
@@ -10,4 +9,5 @@
     "code-runner.ignoreSelection": true,
     "workbench.iconTheme": "material-icon-theme",
     "python.defaultInterpreterPath": "python",
+    "workbench.colorTheme": "GitHub Dark Default",
 }
