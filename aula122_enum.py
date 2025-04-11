@@ -18,7 +18,6 @@ def mover(direcao):
         raise ValueError('Direção não encontrada.')
     print(f'Movendo peão para {direcao}')
 
-
 #mover('cima')
 #mover('baixo')
 #mover('esquerda')
