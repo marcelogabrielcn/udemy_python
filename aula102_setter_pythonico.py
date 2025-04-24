@@ -34,4 +34,3 @@ caneta1.cor = 'Amarelo'  # Para configurar um atributo, usa-se o getter
 caneta1.cor_tampa = 'Verde'
 print(caneta1.cor)
 print(caneta1.cor_tampa)
-
