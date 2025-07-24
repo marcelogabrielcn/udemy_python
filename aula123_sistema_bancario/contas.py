@@ -1,12 +1,12 @@
-import abc
+from abc import ABC, abstractmethod
 
-class Conta(abc.ABC):
-    def __init__(self, agencia, conta, saldo):
+class Conta(ABC):
+    def __init__(self, agencia: int, conta: int, saldo: float = 0):
         self.agencia = agencia
         self.conta = conta
         self.saldo = saldo
     
-    @abc.abstractclassmethod
+    @abstractmethod
     def sacar(self, valor):
         ...
 
@@ -31,7 +31,7 @@ class ContaPopanca(Conta):
         self.detalhes(f'(Saque Negado {valor})')
 
 class ContaCorrente(Conta):
-    def __init__(self, agencia, conta, saldo=0, limite=0):
+    def __init__(self, agencia: int, conta: int, saldo: float = 0, limite: float =0):
         super().__init__(agencia, conta, saldo)
         self.limite = limite
     
@@ -43,7 +43,9 @@ class ContaCorrente(Conta):
             self.saldo -= valor
             self.detalhes(f'(Saque {valor})')
             return self.saldo
-
+    
+        print('Não foi possível sacar o valor desejado')
+        self.detalhes(f'(Saque Negado R${valor:.2f})')
 
 if __name__ == '__main__':
     cp1 = ContaPopanca(1111, 1029, 0)
